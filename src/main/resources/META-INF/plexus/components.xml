@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-set>
+    <components>
+        <component>
+            <role>org.apache.maven.lifecycle.mapping.LifecycleMapping</role>
+            <!-- The POM packaging for this type of project is 'wm-plugin' -->
+            <role-hint>transient</role-hint>
+            <implementation>
+                org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping
+            </implementation>
+            <configuration>
+				<phases>
+					<generate-resources>
+						org.apache.maven.plugins:maven-clean-plugin:clean
+					</generate-resources>
+					<process-resources>
+						org.apache.maven.plugins:maven-resources-plugin:resources
+					</process-resources>
+					<compile>
+						org.apache.maven.plugins:maven-compiler-plugin:compile
+					</compile>
+					<process-test-resources>
+						org.apache.maven.plugins:maven-resources-plugin:testResources
+					</process-test-resources>
+					<test-compile>
+						org.apache.maven.plugins:maven-compiler-plugin:testCompile
+					</test-compile>
+					<test>
+						org.apache.maven.plugins:maven-surefire-plugin:test
+					</test>
+				</phases>
+            </configuration>
+        </component>
+        <component>
+            <role>org.apache.maven.artifact.handler.ArtifactHandler</role>
+            <role-hint>transient</role-hint>
+            <implementation>org.apache.maven.artifact.handler.DefaultArtifactHandler</implementation>
+            <configuration>
+                <type>transient</type>
+            </configuration>
+        </component>
+    </components>
+</component-set>
