@@ -1,8 +1,8 @@
 # transient-plugin-lifecycle
 A Maven lifecycle plugin, like "jar" but with with no "package", "deploy", or "release" phase.
 
-Create it for transients tests, and for speculative creation of transient release modules for
-multi-release jars, where I don't want anything installed, thus the "transient" name.  
+It was created for transient test projects, and for speculative creation of transient release modules for
+multi-release jars, where I don't want anything installed in the local repo, or a remote one, thus the "transient" name.  
 
 Use like this:
 
