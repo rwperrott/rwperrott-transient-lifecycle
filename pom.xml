@@ -28,6 +28,18 @@
         <system>github</system>
     </issueManagement>
 
+    <developers>
+        <developer>
+            <id>rwperrott</id>
+            <name>rwperrott</name>
+            <email>github.rwp@nym.hush.com</email>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+
     <build>
         <resources>
             <resource>
