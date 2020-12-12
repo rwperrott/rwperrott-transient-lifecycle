@@ -1,4 +1,4 @@
-# transient-plugin-lifecycle
+# transient-lifecycle-extension
 A Maven lifecycle plugin, like "jar", but with with no "package", "deploy", or "release" phase.
 
 It was created for transient test projects, and for speculative creation of transient release modules for
