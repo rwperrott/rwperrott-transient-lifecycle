@@ -6,7 +6,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <groupId>rwperrott.maven.plugin</groupId>
+    <groupId>rwperrott.maven.plugins</groupId>
     <artifactId>transient-lifecycle-extension</artifactId>
     <version>1.1-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>

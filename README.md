@@ -19,7 +19,7 @@ Use like this:
         <!-- ... -->
         <extensions>
             <extension> <!-- Register "transient" packaging -->
-                <groupId>rwperrott.maven.plugin</groupId>
+                <groupId>rwperrott.maven.plugins</groupId>
                 <artifactId>transient-lifecycle-extension</artifactId>
                 <version>1.1-SNAPSHOT</version>
             </extension>
