@@ -8,8 +8,8 @@
     </properties>
 
     <groupId>rwperrott.maven.plugins</groupId>
-    <artifactId>transient-lifecycle-extension</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <artifactId>rwperrott-transient-lifecycle-extension</artifactId>
+    <version>1.2-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
 
     <name>Transient Plugin Lifecycle</name>
