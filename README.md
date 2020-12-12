@@ -21,7 +21,7 @@ Use like this:
             <extension> <!-- Register "transient" packaging -->
                 <groupId>rwperrott.maven.plugins</groupId>
                 <artifactId>rwperrott-transient-lifecycle-extension</artifactId>
-                <version>1.1-SNAPSHOT</version>
+                <version>1.1.1-SNAPSHOT</version>
             </extension>
             <!-- ... -->
         </extensions>
